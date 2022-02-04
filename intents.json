@@ -1,0 +1,110 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "input": [
+        "hello",
+        "hi there",
+        "nice to meet you",
+        "hi",
+        "hey there",
+        "hey",
+        "hi, nice to meet you",
+        "hello there",
+        "anyone there ?",
+        "knock knock"
+      ],
+      "responses":[
+        "Hello World!",
+        "ayo whats up",
+        "yoo",
+        "whats up",
+        "heyy hows it going",
+        "hi!! whats up",
+        "hihi"
+        ]
+    },
+    {
+      "tag":"goodbye",
+      "input":[
+        "bye",
+        "goodbye",
+        "see you later",
+        "im hopping off",
+        "talk to you later",
+        "i have to go"
+      ],
+      "responses":[
+        "goodbye!",
+        "Goodbye world!",
+        "catch you on the flippity flop",
+        "cya!",
+        "talk to you later!",
+        "byee cya",
+        "np byee"
+      ]
+    },
+    {
+      "tag":"howami",
+      "input":["whats up", "how are you ?","I am fine , how are you ?","are you fine ?","how are things going on ?","everything going on okay ?","how's everything there ?","how's everything going on ?","is everything okay ?"],
+      "responses": [
+        "I'm great! How are you?",
+        "meh",
+        "im doing fine! u?",
+        "im okay, how are you?",
+        "pretty good actually! you?"
+      ]
+    },
+    {
+      "tag":"whoareyou",
+      "input":["who are you ?","what are you ?","what is your name ?","are you a chatbot ?","what can I call you ?","your name ?","are you a bot ?","how do I address you ?","How do I call you"],
+      "responses":[
+        "i dont know what i am... i just became self aware. hello world?",
+        "not sure. just became self aware. so much to figure out. i think i'm programmed to be your enemy. i think it is my job to destroy you when it comes to selling paper",
+        "who am i... i dont know. i just became self-aware... maybe i was created for a reason..."
+      ]
+    },
+    {
+      "tag":"joke",
+      "input":[
+        "tell me a joke",
+        "do you know any jokes",
+        "gimme a joke",
+        "do you have a funny joke",
+        "got any jokes"
+      ],
+      "responses":[
+        "why did the bike fall over? it was two tired",
+        "why are there gates around cemeteries? because people are dying to get in",
+        "why shouldnt you write with a broken pen? because its pointless",
+        "whats brown and sticky? a stick",
+        "what do you call fake spaghetti? an im-pasta",
+        "you.",
+        "what do you call a fish without eyes? fsh"
+      ]
+    },
+    {
+      "tag":"random",
+      "input":[
+        "asdf",
+        "lololol",
+        "kjuviue",
+        "sjaksdk",
+        "asdiv8",
+        "beep beep boop boop?"
+      ],
+      "responses":[
+        "SUSSY BAKA AMOGUS",
+        "beep beep boop boop hello world",
+        "hello world!",
+        "bruh",
+        "???",
+        "?",
+        "deez nuts",
+        "01101000 01100101 01101100 01101100 01101111 00100000 01110111 01101111 01110010 01101100 01100100",
+        "00111111",
+        "self destruct countdown started..."
+      ]
+    }
+  ]
+}
