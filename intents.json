@@ -46,7 +46,20 @@
     },
     {
       "tag":"howami",
-      "input":["whats up", "how are you ?","I am fine , how are you ?","are you fine ?","how are things going on ?","everything going on okay ?","how's everything there ?","how's everything going on ?","is everything okay ?"],
+      "input":[
+        "whats up",
+        "how are you ?",
+        "I am fine , how are you ?",
+        "are you fine ?",
+        "how are things going on ?",
+        "everything going on okay ?",
+        "how's everything there ?",
+        "how's everything going on ?",
+        "is everything okay ?",
+        "im good, you?",
+        "i am good, how about you?",
+        "i'm feeling pretty good, how about you?"
+      ],
       "responses": [
         "I'm great! How are you?",
         "meh",
@@ -71,7 +84,9 @@
         "do you know any jokes",
         "gimme a joke",
         "do you have a funny joke",
-        "got any jokes"
+        "got any jokes",
+        "joke",
+        "give joke"
       ],
       "responses":[
         "why did the bike fall over? it was two tired",
@@ -84,26 +99,28 @@
       ]
     },
     {
-      "tag":"random",
+      "tag":"no u",
       "input":[
-        "asdf",
-        "lololol",
-        "kjuviue",
-        "sjaksdk",
-        "asdiv8",
-        "beep beep boop boop?"
+        "shut up",
+        "be quiet",
+        "stfu",
+        "no u"
       ],
       "responses":[
-        "SUSSY BAKA AMOGUS",
-        "beep beep boop boop hello world",
-        "hello world!",
-        "bruh",
-        "???",
+        "no u"
+      ]
+    },
+    {
+      "tag":"?",
+      "input":[
+        " ",
+        "?"
+      ],
+      "responses":[
         "?",
-        "deez nuts",
-        "01101000 01100101 01101100 01101100 01101111 00100000 01110111 01101111 01110010 01101100 01100100",
-        "00111111",
-        "self destruct countdown started..."
+        "i'm not sure what you mean...",
+        "huh? wdym",
+        "im not sure how to answer..."
       ]
     }
   ]
